@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="354.0" style="-fx-background-color: #d72631;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aclcbukidnon.com.javafxactivity.controllers.SplashScreenController">
+    <Label text="JavaFx Activity" textFill="#a2d5c6">
+        <font>
+            <Font name="System Bold" size="29.0" />
+        </font>
+      <effect>
+         <DropShadow height="4.68" radius="3.5949999999999998" width="11.7">
+            <color>
+               <Color red="1.0" green="1.0" blue="1.0" />
+            </color>
+         </DropShadow>
+      </effect>
+    </Label>
+    <Label layoutX="151.0" layoutY="189.0" text="Computer Programming II" textFill="#a2d5c6">
+        <font>
+            <Font size="15.0" />
+        </font>
+      <effect>
+         <DropShadow height="4.68" radius="3.5949999999999998" width="11.7">
+            <color>
+               <Color red="1.0" green="1.0" blue="1.0" />
+            </color>
+         </DropShadow>
+      </effect>
+    </Label>
+    <ProgressBar fx:id="progressInitial" prefWidth="200.0" progress="0.0" style="-fx-accent: #077b8a;">
+        <VBox.margin>
+            <Insets top="69.0" />
+        </VBox.margin>
+      <effect>
+         <DropShadow height="4.68" radius="3.5949999999999998" width="11.7">
+            <color>
+               <Color red="1.0" green="1.0" blue="1.0" />
+            </color>
+         </DropShadow>
+      </effect>
+    </ProgressBar>
+</VBox>
